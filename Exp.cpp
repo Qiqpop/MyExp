@@ -5,10 +5,10 @@
 
 using namespace std;
 
-//Экспонента числа n
+//Р­РєСЃРїРѕРЅРµРЅС‚Р° С‡РёСЃР»Р° n
 double my_exp(int n);
 
-//Машинный эпсилон
+//РњР°С€РёРЅРЅС‹Р№ СЌРїСЃРёР»РѕРЅ
 double EMach();
 
 int main(){
@@ -22,7 +22,7 @@ int main(){
 }
 
 double my_exp(int n) {
-	//Экспонента числа n
+	//Р­РєСЃРїРѕРЅРµРЅС‚Р° С‡РёСЃР»Р° n
 	double d = EMach();
 	double e0 = 1, e1 = 1, tmp = 1;
 	double k = 1;
@@ -47,7 +47,7 @@ double my_exp(int n) {
 }
 
 double EMach() {
-	//Машинный эпсилон
+	//РњР°С€РёРЅРЅС‹Р№ СЌРїСЃРёР»РѕРЅ
 	double x = 1, y = 0, me;
 	do {
 		me = x;
